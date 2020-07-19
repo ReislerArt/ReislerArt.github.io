@@ -30,9 +30,22 @@
   font-family: 'Comfortaa', cursive;
 }
 
+.gothic-font {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.name-size {
+  font-size: 70pt;
+}
+@media (max-width: 500px) {
+  .name-size {
+    font-size: 40pt;
+  }
+}
+
 .bg-img {
   /* The image used */
-  background-image: url("assets/coverImage.png");
+  background-image: url("assets/HomePageCover.png");
 
   /* Full height */
   height: 100%;
