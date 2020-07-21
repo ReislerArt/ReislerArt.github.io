@@ -32,12 +32,21 @@
   background-color: rgba(83,114,133, 0.8);
 }
 
+/* FONTS */
 .name-font {
   font-family: 'Comfortaa', cursive;
 }
 
 .gothic-font {
   font-family: 'Nanum Gothic', sans-serif;
+}
+
+.josefin-font {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.verdana-font {
+  font-family: Verdana;
 }
 
 .name-size {
@@ -51,10 +60,24 @@
 
 .bg-img {
   /* The image used */
-  background-image: url("assets/HomePageCover.png");
+  background-image: url("assets/HomePageCover.jpg");
 
   /* Full height */
   height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-bg-img {
+  /* The image used */
+  background-image: url("assets/HomePageCover.jpg");
+
+  height: 35vh;
+  min-height: 10em;
+  padding-top: 2em;
 
   /* Center and scale the image nicely */
   background-position: center;
